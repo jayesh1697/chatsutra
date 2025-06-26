@@ -9,7 +9,7 @@ from groq import Groq, GroqError
 import re
 
 # --- Configuration ---
-GROQ_API_KEY = os.getenv("GROQ_API_KEY") or "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"
+GROQ_API_KEY = os.getenv("GROQ_API_KEY") or "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"
 CHAT_HISTORY_DIR = "chat_history"
 os.makedirs(CHAT_HISTORY_DIR, exist_ok=True)
 
